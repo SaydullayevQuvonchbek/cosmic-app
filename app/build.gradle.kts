@@ -15,10 +15,22 @@ android {
         versionName = "1.0"
     }
 
+    /* Uncomment and fill when keystore is ready
+    signingConfigs {
+        create("release") {
+            storeFile = file("cosmic-release-key.keystore")
+            storePassword = "your_store_password"
+            keyAlias = "cosmic_alias"
+            keyPassword = "your_key_password"
+        }
+    }
+    */
+
     buildTypes {
         release {
             isMinifyEnabled = false
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
+            // signingConfig = signingConfigs.getByName("release")
         }
     }
     compileOptions {
