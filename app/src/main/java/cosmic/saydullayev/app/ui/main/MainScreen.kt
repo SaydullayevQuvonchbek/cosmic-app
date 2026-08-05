@@ -9,8 +9,8 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation3.runtime.NavKey
-import com.example.cosmic.data.DefaultDataRepository
-import com.example.cosmic.theme.CosmicTheme
+import cosmic.saydullayev.app.data.DefaultDataRepository
+import cosmic.saydullayev.app.theme.CosmicTheme
 
 @Composable
 fun MainScreen(

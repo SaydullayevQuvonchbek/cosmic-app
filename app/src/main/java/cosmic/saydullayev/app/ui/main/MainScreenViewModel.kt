@@ -2,8 +2,8 @@ package cosmic.saydullayev.app.ui.main
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.cosmic.data.DataRepository
-import com.example.cosmic.ui.main.MainScreenUiState.Success
+import cosmic.saydullayev.app.data.DataRepository
+import cosmic.saydullayev.app.ui.main.MainScreenUiState.Success
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.catch
